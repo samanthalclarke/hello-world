@@ -2,7 +2,11 @@
 title: "World Wonders"
 author: "Samantha Clarke"
 date: "02/05/2017"
-output: html_document
+output: 
+html_document:
+keep_md: true
+
+#output: github_document
 ---
 
 ```{r setup, include=FALSE}
